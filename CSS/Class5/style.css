@@ -1,0 +1,48 @@
+.parent{
+    width: 700px;
+    height: 600px;
+    border: 5px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap:10px; */
+    /* row-gap: 30px;
+    column-gap: 10px; */
+}
+
+.child{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    font-size: 2em;
+}
+
+.child1{
+    background-color: blueviolet;
+    /* align-self: flex-end; */
+    order: 3;
+}
+
+.child2{
+    background-color: lightcoral;
+    order: 1;
+}
+
+.child3{
+    background-color: lightgreen;
+    order: 5;
+}
+
+.child4{
+    background-color: pink;
+    order: 2;
+}
+
+.child5{
+    background-color: blue;
+    /* align-self: flex-start; */
+    order: 4;
+}
